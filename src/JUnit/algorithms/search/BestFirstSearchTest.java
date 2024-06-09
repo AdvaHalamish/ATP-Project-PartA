@@ -32,8 +32,8 @@ class BestFirstSearchTest {
         assertEquals(1, checkRoads(myMazeGenerator, 0, 0));
         assertEquals(1, checkRoads(myMazeGenerator, -5, 5));
         assertEquals(1, checkRoads(myMazeGenerator, 5, -5));
-   //     assertEquals(1, checkRoads(myMazeGenerator, 23, 20));
-   //     assertEquals(1, checkRoads(myMazeGenerator, 555, 900));
+        assertEquals(1, checkRoads(myMazeGenerator, 23, 20));
+        assertEquals(1, checkRoads(myMazeGenerator, 555, 900));
     }
 
     @Test
