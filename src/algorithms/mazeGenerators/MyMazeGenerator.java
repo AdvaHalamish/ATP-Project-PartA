@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class MyMazeGenerator extends AMazeGenerator {
     @Override
-    public Maze generate(int rows, int cols) {
-        Maze MyMaze = new Maze(rows, cols);
+    public Maze generate(int cols, int rows) {
+        Maze MyMaze = new Maze(cols, rows);
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < cols; c++) {
                 MyMaze.getMaze()[r][c] = 1;
